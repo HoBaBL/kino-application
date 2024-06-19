@@ -1,0 +1,38 @@
+.header {
+    background-color: #141414;
+    height: 72px;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 72px;
+    justify-content: space-between;
+    
+}
+
+.title {
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerText {
+    color: rgb(158, 158, 158);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headerText:hover {
+    color: white;
+}

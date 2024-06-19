@@ -1,0 +1,116 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.containerBaza {
+    max-width: 1240px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    background-color: white;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+li {
+    list-style-type:  none;
+}
+
+.menu {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    /* padding-top: 120px; */
+    justify-content: center;
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.skeleton {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+.pointMore {
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.linkPages {
+    border: solid 1px rgba(255, 166, 0, 0.651);
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.activePages {
+    background-color: rgba(255, 166, 0, 0.267);
+  border-radius: 50%;
+}
+
+.alert {
+    background-color: #4b4b4b;
+    position: fixed;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    top: 80px;
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 7px 1px #0000001a;
+    margin-left: 1570px;
+    color: white;
+    transition: 0.3s;
+}
+
+.alertNone {
+    top: -200px;
+    background-color: #4b4b4b;
+    position: fixed;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 7px 1px #0000001a;
+    margin-left: 1570px;
+    color: white;
+    transition: 0.3s;
+}
+
+.alert p {
+    margin: 0;
+}
+

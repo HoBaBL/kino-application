@@ -1,0 +1,52 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.favorites {
+    padding-top: 70px;
+    
+}
+
+.img {
+    width: 180px;
+}
+
+.favoritesFlex {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 7px 1px #0000001a;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:0.4s;
+}
+
+.favoritesFlex:hover {
+    background-color: #f4f4f4;
+}
+
+.h2 {
+    margin: 0;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+    margin-left:0 ;
+}
+
+.span {
+    color: gray;
+}
+
+/* .textContainer {
+    max-width: 900px;
+} */

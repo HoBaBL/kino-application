@@ -1,0 +1,14 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* color: white; */
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.previous {
+  /* color: rgba(255, 166, 0, 0.651); */
+  font-weight: 600;
+}
