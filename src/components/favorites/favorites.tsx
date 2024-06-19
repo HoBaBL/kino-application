@@ -55,6 +55,7 @@ const Favorites = () => {
     const favorites:any = JSON.parse(localStorage.getItem('Favorites')!)
     const navigate = useNavigate();
 
+    
     console.log(favorites)
 
     function router(id:number) {
