@@ -55,7 +55,7 @@ const Favorites = () => {
     const favorites:any = JSON.parse(localStorage.getItem('Favorites')!)
     const navigate = useNavigate();
 
-    
+
     console.log(favorites)
 
     function router(id:number) {
@@ -68,7 +68,7 @@ const Favorites = () => {
             <div className={style.favorites}>
                 <h1>Буду смотреть</h1>
                 <div>
-                    {favorites.length > 0 ? 
+                    {favorites !== null ? 
                         favorites.map((item:PosterType) => 
                             <div onClick={() => router(item.id)} key={item.id} className={style.favoritesFlex}>
                                 <div>
