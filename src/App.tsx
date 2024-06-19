@@ -8,7 +8,6 @@ import ReactPaginate from 'react-paginate';
 import {Poster} from './components/poster/poster'
 import style from './App.module.css'
 import { Menu } from './components/menu/menu';
-import post from './post.json'
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import ThreeDots from './components/skeleton/skeleton';
 
@@ -59,7 +58,7 @@ function App() {
     const { data, error, message } = await kp.movie.getByFilters(query);
   
     if (data) {
-      const { docs, page, limit, pages } = data;
+      const { docs, pages } = data;
       setPageMax(pages)
       setCinemas(docs)
       setLoading(true)

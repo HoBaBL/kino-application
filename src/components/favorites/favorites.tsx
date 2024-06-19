@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+
 import style from './favorites.module.css'
 import { FaStar } from "react-icons/fa";
 import { useNavigate} from "react-router-dom";
@@ -52,7 +52,7 @@ type PosterType = {
 
 
 const Favorites = () => {
-    const [favorites, setFavorites] = useState<any>(JSON.parse(localStorage.getItem('Favorites')!))
+    const favorites:any = JSON.parse(localStorage.getItem('Favorites')!)
     const navigate = useNavigate();
 
     console.log(favorites)

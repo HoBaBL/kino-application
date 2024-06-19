@@ -1,8 +1,7 @@
-import { FC, useState } from "react"
+import { FC } from "react"
 import style from './poster.module.css'
 import { FaStar } from "react-icons/fa";
 import { useNavigate} from "react-router-dom";
-import { IoBookmark } from "react-icons/io5";
 
 
 type PosterType = {
@@ -32,7 +31,6 @@ type PosterType = {
 
 export const Poster:FC<PosterType> = ({cinema}) => {
     const navigate = useNavigate();
-    const [favorites, setFavorites] = useState<any>(JSON.parse(localStorage.getItem('Favorites')!))
 
     function router() {
         navigate(`/movie/${cinema.id}`)

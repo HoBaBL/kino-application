@@ -1,8 +1,7 @@
 import { FC, useEffect, useState } from "react"
-import { useSelector } from "react-redux";
 import style from './movie.module.css'
 import { useParams } from "react-router-dom";
-import {KinopoiskDev, MovieDtoV13} from '@openmoviedb/kinopoiskdev_client';
+import {KinopoiskDev} from '@openmoviedb/kinopoiskdev_client';
 import { FaStar } from "react-icons/fa";
 import { IoBookmark } from "react-icons/io5";
 
