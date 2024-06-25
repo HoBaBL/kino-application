@@ -49,8 +49,6 @@ function App() {
       'genres.name': genres,
       'rating.kp': `${startRating}-${endRating}`,
       'poster.url': '!null',
-      sortField: 'rating.kp',
-      sortType: '-1',
       page: pages,
       limit: 50,
     };
